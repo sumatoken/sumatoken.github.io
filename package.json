@@ -1,10 +1,13 @@
 {
-  "name": "portfolio",
+  "name": "sumatoken.github.io",
   "version": "0.1.0",
+  "description": "My portfolio website",
+  "homepage": "https://www.mbme.me",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'www.mbme.me' > ./out/CNAME",
+    "deploy": "gh-pages -d out -t true",
     "start": "next start",
     "lint": "next lint"
   },
