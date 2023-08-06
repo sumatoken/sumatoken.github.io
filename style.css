@@ -1,22 +1,6 @@
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+main .me {
+  filter: drop-shadow(20px 13px 12px #b42e16);
 }
-.gradient-animation {
-  animation: infinite 2s ease-in-out;
-}
-
-/* main section.projects {
-  height: 100vh;
-  background-image: url("assets/images/projects-cpu.svg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 70%;
-} */
 
 main section.projects .projects-group {
   height: 100vh;
