@@ -7,8 +7,13 @@
   <link rel="stylesheet" href="style.css" />
   <script rel="script" src="script.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <title>Portfolio</title>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicons//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <title>mbme.me | Bermime Mohammed</title>
 </head>
 
 <body class="relative bg-black flex flex-col m-0 p-0">
@@ -45,10 +50,10 @@
   </div>
 </nav>
 
-  <main class="w-screen container flex flex-col gap-8">
+  <main class="w-screen container flex flex-col gap-8 ">
     <section
     id="home"
-      class="w-full h-screen flex flex-col md:flex-row lg:flex-row justify-evenly items-center bg z-[-100] before:absolute before:top-[50vh] before:left-[20vw] md:before:top-[70vh] md:before:left-[20vw] lg:before:top-[70vh] lg:before:left-[20vw] after:absolute after:top-[-40vh] after:left-[90vw] md:after:top-[70vh] md:after:left-[20vw] lg:after:top-[70vh] lg:after:left-[20vw]">
+      class=" w-full h-screen flex flex-col md:flex-row lg:flex-row justify-evenly items-center bg z-[-100] before:absolute before:top-[50vh] before:left-[20vw] md:before:top-[70vh] md:before:left-[20vw] lg:before:top-[70vh] lg:before:left-[20vw] after:absolute after:top-[-40vh] after:left-[90vw] md:after:top-[70vh] md:after:left-[20vw] lg:after:top-[70vh] lg:after:left-[20vw]">
       <div class="w-full md:w-[50%] lg:w-[50%] flex flex-col z-[100]">
         <div
           class="w-full self-center relative flex items-center justify-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
@@ -108,10 +113,10 @@
         </div>
       </div>
       <div class="landing-iamge-container w-1/2 flex md:w-[40%] lg:w-[40%] border-t-2 border-t-white md:border-t-0 lg:border-t-0 md:border-l-2 lg:border-l-white z-[100]">
-        <img src="assets/images/me-looking-at-laptop.png" alt="My pic" class="filter drop-shadow-3xl" />
+        <img src="assets/images/me-looking-at-laptop.png" alt="My pic" class="me" />
       </div>
     </section>
-    <section class="relative w-screen h-screen flex flex-col justify-center items-center">
+    <section class=" relative w-screen h-screen flex flex-col justify-center items-center">
       <div class="cpu-container max-w-full absolute z-[-1] flex justify-center items-center">
         <div class="lg-screen-cpu mt-[710vh] w-[65vw]  hidden md:hidden lg:block">
         <svg
@@ -5197,7 +5202,7 @@
         </div>
       </div>
     </section>
-     <section  id="hire-me" class="self-center w-[90%] md:w-[80%] lg:w-[80%] h-screen p-4 absolute top-[850vh] md:top-0 lg:top-[530vh] lg:left-[9%] flex flex-col justify-center items-center rounded-3xl bg-white dark:bg-gray-900">
+     <section  id="hire-me" class="snap-always snap-center self-center w-[90%] md:w-[80%] lg:w-[80%] h-screen p-4 absolute top-[850vh] md:top-0 lg:top-[532vh] lg:left-[9%] flex flex-col justify-center items-center rounded-3xl bg-white dark:bg-gray-900">
         <div class="lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2
             class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
@@ -5266,7 +5271,7 @@
         </div>
       </section>
       
-      <footer class="absolute w-full top-[955vh] md:top-[640vh] lg:top-[640vh] bottom-0 z-[100] bg-white rounded-lg shadow dark:bg-gray-900 ">
+      <footer class=" absolute w-full top-[955vh] md:top-[640vh] lg:top-[640vh] bottom-0 z-[100] bg-white rounded-lg shadow dark:bg-gray-900 ">
           <div class="min-w-full max-w-screen-xl mx-auto p-4 md:py-8 bg-[#111827]">
               <div class="sm:flex sm:items-center sm:justify-between">
                   <a href="#" class="flex items-center mb-4 sm:mb-0">
@@ -5293,7 +5298,8 @@
           </div>
       </footer>
 
-      <h1 class="absolute top-[700vh] mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Why did you have to scroll this far?</h1>
+      <h1 class="self-center absolute hidden md:inline lg:inline md:top-[700vh] lg:top-[700vh] mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Why did you have to scroll this far?</h1>
+       <h1 class="self-center absolute hidden md:inline lg:inline md:top-[900vh] lg:top-[900vh] mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Bro?!</h1>
 
   </main>
   
